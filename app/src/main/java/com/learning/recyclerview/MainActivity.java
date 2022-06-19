@@ -12,6 +12,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView contactsReView;
+    ArrayList<Contact> contacts = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         contactsReView = findViewById(R.id.contactsRecView);
 
-        ArrayList<Contact> contacts = new ArrayList<>();
+
         contacts.add(new Contact("Margot Robbie","Margot@gmail.com","https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Margot_Robbie_%2828316659170%29_%28cropped%29.jpg/800px-Margot_Robbie_%2828316659170%29_%28cropped%29.jpg"));
         contacts.add(new Contact("Jennifer Lawrence","Jenny@gmail.com","https://m.media-amazon.com/images/M/MV5BOTU3NDE5MDQ4MV5BMl5BanBnXkFtZTgwMzE5ODQ3MDI@._V1_.jpg"));
         contacts.add(new Contact("Zendaya","Zendaya@gmail.com","https://media1.popsugar-assets.com/files/thumbor/ck63Ryb_5C2w6wGkmwXTODedG6E/0x55:3191x3246/fit-in/500x500/filters:format_auto-!!-:strip_icc-!!-/2019/11/20/847/n/1922398/60f627eb5dd592157d0953.98365826_/i/Zendaya.jpg"));
