@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
 
         contacts.add(new Contact("Billie","billy@gmail",""));
 
+        contacts.add(new Contact("UnitTest","UnitTest@gmail",""));
+
 
         ContactsReViewAdapter adapter = new ContactsReViewAdapter(this);
         adapter.setContacts(contacts);
