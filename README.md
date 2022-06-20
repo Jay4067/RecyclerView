@@ -1,1 +1,1 @@
-# RecyclerView This is a Sample app to shoecase how to create recyclerView.
+# RecyclerView This is a Sample app to showcase how to create recyclerView.
