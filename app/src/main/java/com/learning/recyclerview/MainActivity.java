@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
         contacts.add(new Contact("Beyonce","Beyonce@gmail.com","https://assets.vogue.com/photos/5b280fa247b9940fb269b546/master/w_3000,h_1997,c_limit/00-story-beyonce-5-things.jpg"));
         contacts.add(new Contact("Snoop Dogg","Snoppy@gmail.com","https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2020%2F04%2F16%2Fsnoop-dogg-wine-FT-BLOG0420.jpg"));
 
+        contacts.add(new Contact("Billie","billy@gmail",""));
+
+
         ContactsReViewAdapter adapter = new ContactsReViewAdapter(this);
         adapter.setContacts(contacts);
 
